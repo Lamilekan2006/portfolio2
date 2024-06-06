@@ -1,0 +1,598 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+ 
+   display: flex;
+   flex-direction: column;
+}
+
+
+.pad{
+    background-color: black;
+    height: 15vh;
+}
+
+ul{
+    color: white ;
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+.padd{
+    padding-left: 9rem;
+    flex: 4;
+    font-size: 1.5rem;
+}
+.pad1{
+    flex:1;
+    font-size: 1.5rem;
+} 
+.ham{
+    display: none;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    background-color: #1c1a19;
+    color: white;
+
+}
+.icon{
+    width: 5%;
+    height: 90vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color:#1c1a19;
+    color:white ;
+    order: 1;
+}
+.introduction{
+    width: 50%;
+   
+}
+.intro{
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-image: url(jo.png);
+    background-size: 40%;
+    width: 100%;
+    height: 90vh;
+    padding: 2%;
+    font-size: 5%;
+    order: 2;
+}
+.point1{
+    width: 100%;
+    margin-top: 9rem;
+    font-size: 3rem;
+    
+   
+    padding-top: 10px;
+    font-size: 2rem;
+    padding-bottom:20px;
+}
+.point2{
+    font-size: 2rem;
+}
+p{
+    font-size: 1rem;
+}
+.page{
+    font-size: 3rem;
+}
+.recent{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+   
+}
+.point3{
+    margin-left: 3%;
+    font-size: 2rem;
+}
+
+.pan{
+    margin-left: 2%;
+    height: 0;
+    width: 50%;
+}
+.main1{
+    display: flex;
+    height: 450px;
+}
+.box{
+    position: relative;
+    width: 50%;
+  
+}
+.box1{
+    margin-left: 3%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.pam{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 5%;
+}
+.pov{
+    font-size: 3rem;
+}
+.pov1{
+    margin-top: 5%;
+    font-size: 1.5rem;
+}
+.pov2{
+    font-size: 1.3rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: black;
+    gap: 5%;
+}
+.pov3{
+   padding: 2% 1%;
+    border: 1px solid black;
+    width: 10%;
+   text-align: center;
+}
+.pov4{
+   padding: 2% 1%;
+    border: 1px solid black;
+    width: 25%;
+   text-align: center;
+}
+.povv{
+    border: 2px solid #f55800;
+    width: 23%;
+    padding: 2% 2%;
+    text-align: center;
+    background-color:#f55800;
+    color: white;
+}
+.povv:hover{
+    background-color:white;
+    cursor: pointer;
+     color: #f55800;
+     transition: 2s ease;
+}
+.main2{
+    margin-top: 5%;
+    border: 2px solid red ;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   padding:3% ;
+   gap: 1%;
+}
+.pon{
+    font-size: 2.5rem;
+    color: white;
+    margin-top: 25%;
+}
+.pon4{
+    font-size: 2.5rem;
+    color: white;
+    margin-top: 30%;
+}
+.pon7{
+    font-size: 2.5rem;
+    color: white;
+    margin-top: 25%;
+}
+.pamm{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 10%;
+}
+.pa{
+    margin-top: 5%;
+    font-size: 1.5rem;
+    color: white;
+}
+.paa{
+    margin-top: 10%;
+    color:white;
+    gap: 5%;
+}
+.go{
+    border: 1px solid rgb(75, 73, 73);
+    width: 20%;
+    background-color:  rgb(119, 115, 115);
+    padding: 1% 1%;
+    text-align: center;
+}
+.pro{
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    color: white;
+    border: 1px solid #f55800;
+    padding: 4%;
+    text-align: center;
+    background-color: #f55800;
+    margin-top: 5%;
+}
+.pro:hover{
+    background-color:white;
+    cursor: pointer;
+     color: #f55800;
+     transition: 2s ease;
+}
+.jav{
+        margin-bottom: 15%;
+        color:white;
+        gap: 5%;
+}
+.went{
+    margin-top: 10%;
+    border: 1px solid rgb(75, 73, 73);
+    width: 20%;
+    background-color:  rgb(119, 115, 115);
+    padding: 1% 1%;
+    text-align: center;
+}
+.pr{
+    color: white;
+    border: 1px solid #f55800;
+    padding: 4%;
+    text-align: center;
+    background-color: #f55800;
+    margin-top: 5%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.pr:hover{
+    background-color:white;
+    cursor: pointer;
+     color: #f55800;
+     transition: 2s ease;
+}
+.son{
+    margin-bottom: 15%;
+    color:white;
+    gap: 5%;
+}
+.sun{
+    margin-top: 10%;
+    border: 1px solid rgb(75, 73, 73);
+    width: 20%;
+    background-color:  rgb(119, 115, 115);
+    padding: 1% 1%;
+    text-align: center;
+}
+.pj{
+    color: white;
+    border: 1px solid #f55800;
+    padding: 4%;
+    text-align: center;
+    background-color: #f55800;
+    margin-top: 5%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.pj:hover{
+    background-color:white;
+    cursor: pointer;
+     color: #f55800;
+     transition: 2s ease;
+}
+.ps1{
+    font-size: 2.5rem;
+    color: white;
+    margin-top: 35%;
+}
+.par{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 10%;
+}
+.don{
+    margin-bottom: 15%;
+    color:white;
+    gap: 5%;
+}
+.done{
+    margin-top: 10%;
+    border: 1px solid rgb(75, 73, 73);
+    width: 20%;
+    background-color:  rgb(119, 115, 115);
+    padding: 1% 1%;
+    text-align: center;
+}
+.boy{
+    color: white;
+    border: 1px solid #f55800;
+    padding: 4%;
+    text-align: center;
+    background-color: #f55800;
+    margin-top: 5%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.boy:hover{
+    background-color:white;
+    cursor: pointer;
+     color: #f55800;
+     transition: 2s ease;
+}
+.ps2{
+    font-size: 2.5rem;
+    color: white;
+    margin-top: 25%;
+}
+.lami{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 10%;
+}
+.sea{
+    margin-bottom: 10%;
+    color:white;
+    gap: 5%;
+}
+.saw{
+    margin-top: 10%;
+    border: 1px solid rgb(75, 73, 73);
+    width: 20%;
+    background-color:  rgb(119, 115, 115);
+    padding: 1% 1%;
+    text-align: center;
+}
+.box2{
+    border: 2px solid black;
+    width: 95%;
+    height: 500px;
+    background-image: url(web.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.sow{
+    color: white;
+    border: 1px solid #f55800;
+    padding: 4%;
+    text-align: center;
+    background-color: #f55800;
+    margin-top: 5%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.sow:hover{
+    background-color:white;
+    cursor: pointer;
+     color: #f55800;
+     transition: 2s ease;
+}
+.lam{
+    font-size: 2.5rem;
+    color: white;
+    margin-top: 25%;
+}
+.ps3{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 10%;
+}
+.dan{
+    margin-bottom: 10%;
+    color:white;
+    gap: 5%;
+}
+.dann{
+    margin-top: 10%;
+    border: 1px solid rgb(75, 73, 73);
+    width: 20%;
+    background-color:  rgb(119, 115, 115);
+    padding: 1% 1%;
+    text-align: center;
+}
+.dax{
+    color: white;
+    border: 1px solid #f55800;
+    padding: 4%;
+    text-align: center;
+    background-color: #f55800;
+    margin-top: 5%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.dax:hover{
+    background-color:white;
+    cursor: pointer;
+     color: #f55800;
+     transition: 2s ease;
+}
+.lnt1{
+    background-image: url(cal.jpg);
+}
+.int2{
+    background-image: url(place.jpg);
+}
+.int3{
+    background-image: url(web.png);
+}
+.int4{
+    background-image: url(cal.jpg);
+}
+.int5{
+    background-image: url(place.jpg);
+}.main3{
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: url(pofs.png);
+    background-size: 50%;
+    display: flex;
+    border: 2px solid green ;
+    background-color: black;
+    color: white;
+}
+.main4{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20% 7%;
+}
+.box3{
+    font-size: 3rem;
+    color: #f55800;
+}
+.box4{
+    font-size: 1.5rem;
+    margin: 3% 2%;
+}
+.box5{
+    height: 5%;
+    font-size: 1rem;
+    border: 2px solid #f55800;
+    width: 25%;
+    margin-top: 5%;
+   padding: 3% 3%;
+   font-size: 1.2rem;
+   background-color: #f55800;
+}
+.ink{
+    color: white;
+    width: 100%;
+}
+.box5:hover{
+    background-color:white;
+    cursor: pointer;
+     color: #f55800;
+     transition: 2s ease;
+}
+.main5{
+    border: 2px solid red ;
+    width: 100%;
+    height: 450px;
+    background-color: #1c1a19;
+    display: flex;
+    justify-content: space-between;
+}
+.point4{
+    border: 2px solid red ;
+    width: 30%;
+    height: 450px;
+    display: flex;
+}
+.daxx{
+    flex-direction: column;
+    margin-top: 20%;
+    gap: 5%;
+    font-size: 1.5rem;
+    
+}
+.danny{
+    float: right;
+    font-family: sans-serif;
+    font-size: 3rem;
+    color: white;
+   align-items: center;
+}
+.danny::before{
+    content: url(Rectangle\ 55.png);
+    padding-right: 10px;
+}
+@media (max-width:740px) {
+ 
+        .ham{ 
+            display: block;
+            font-size: 1.5rem;
+            flex: 1;
+            
+        }
+        .pad1{
+            display: none;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        
+        .icon{
+            order: 2;
+            display: flex;
+            flex-direction:row;
+            width: 60%;
+            height: 2%;
+            justify-content: space-between;
+        }
+        .intro{
+            order: 1;
+            width: 100%;
+            height: 90vh;
+            background-size: 30%;
+            font-size: 1rem;
+            background-position: bottom right;
+        }
+        .introduction{
+            width: 90%;
+        
+        }
+        .point1{
+            font-size: 2rem;
+            color: orangered;
+        }
+        .point2{
+            font-size: 1.5rem;
+        }
+        p{
+            margin-top: 5%;
+            font-size: 1rem;
+        }
+        br{
+            display: none;
+        }
+        .main1{
+            display:flex;
+            flex-direction: column;
+        }
+        .box{
+            width: 30%;
+        }
+        .point3{
+            font-size: 2.7rem;
+            margin-bottom: 10%;
+        }
+        .recent{
+            display: flex;
+            flex-direction: column;
+            padding: 25% 10%;
+        }
+        .box1{
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            padding: 5% 5%;
+        }
+        .box2{
+            margin:  2% auto;
+        }
+        .main2{
+            grid-template-columns: auto;
+            padding: 3%;
+            height: auto;
+            gap: 0;
+
+        }
+        .main3{
+            background-position: bottom right;
+            background-size: 30%;
+        }
+    }
